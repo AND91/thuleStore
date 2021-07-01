@@ -5,7 +5,7 @@
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
       "flex-layout.row#descriptionTab"
-      //"flex-layout.row#description"
+      //"flex-layout.row#description",
       //"product-reviews",
       //"product-questions-and-answers"
     ]
@@ -176,6 +176,7 @@
       "product-quantity",
       "product-assembly-options",
       "flex-layout.row#buy-button",
+      "rich-text#ame-digital",
       "availability-subscriber",
       "shipping-simulator",
       "share#default"
@@ -183,7 +184,10 @@
   },
   "sku-selector": {
     "props": {
-      "variationsSpacing": 3
+      "variationsSpacing": 3,
+      "initialSelection": "empty",
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": true
     }
   },
   "product-price#product-details": {
@@ -205,11 +209,18 @@
     "props": {
       "social": {
         "Facebook": true,
-        "Instagram": true,
         "WhatsApp": true,
         "Twitter": false,
         "Pinterest": false
       }
+    }
+  },
+  "rich-text#ame-digital": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Compre com ![AME Logo](https://thulestore.vteximg.com.br/arquivos/logo-ame.png)\ne receba até 5% de volta ",
+      "font": "t-heading-5",
+      "blockClass": "ame-digital"
     }
   }
 }

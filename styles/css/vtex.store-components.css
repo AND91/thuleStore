@@ -109,6 +109,14 @@
   display: block;
 }
 
+.skuSelectorTextContainer {
+  display: none;
+}
+
+.skuSelectorSubcontainer {
+  margin: 0;
+}
+
 @media only screen and (min-width: 640px) {
 
 
@@ -131,7 +139,7 @@
   .searchBarContainer {
     max-width: 265px;
   }
-  
+
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }

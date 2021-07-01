@@ -57,6 +57,7 @@
 .flexRow--shelfMaster{
   background: #f1f1f1;
   padding: 10px;
+  height: 465px;
 }
 
 .flexCol--flexDrawer{
@@ -215,4 +216,9 @@
   .flexRow--miniImage , .flexRow--imageBottom , .flexRow--sliderFlex{
     display: none
   }
+
+  .flexRow--shelfMaster{
+    height: auto;
+  }
+
 }

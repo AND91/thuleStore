@@ -54,18 +54,21 @@
   "image#miniOne": {
     "props": {
       "src": "https://thulestore.vteximg.com.br/arquivos/miniImage1.jpg",
+      "link": "/atividade-com-criancas/cadeirinhas-infantis-para-bicicleta",
       "blockClass": "miniImage"
     }
   },
   "image#miniTwo": {
     "props": {
       "src": "https://thulestore.vteximg.com.br/arquivos/miniImage2.jpg",
+      "link": "/bf?_q=BF&map=ft",
       "blockClass": "miniImage"
     }
   },
   "image#miniThree": {
     "props": {
       "src": "https://thulestore.vteximg.com.br/arquivos/miniImage3.jpg",
+      "link": "/malas-e-mochilas/mochilas",
       "blockClass": "miniImage"
     }
   },
@@ -89,19 +92,19 @@
   },
   "image#mediumOne": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/medImage1.jpg",
+      "src": "assets/image--top-2.jpg",
       "blockClass": "mediumImageOne"
     }
   },
   "image#mediumTwo": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/medImage2.jpg",
+      "src": "assets/image--top-3.jpg",
       "blockClass": "mediumImageTwo"
     }
   },
   "image#mediumThree": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/medImage3.jpg",
+      "src": "assets/image--top-1.jpg",
       "blockClass": "mediumImageThree"
     }
   },
@@ -134,12 +137,14 @@
   },
   "image#leftOne": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/leftImage1.jpg"
+      "src": "assets/image--middle-1-r.jpg",
+      "link": "https://www.thule.com/pt-br/buyers-guide?c=roof+racks&dealerid=deb2d2f2-4027-445e-95e9-b393dd975ede&utm_source=thule+store+colinas+br&utm_medium=retailertraffic&utm_campaign=fitguide&q=iA2f4EWWG"
     }
   },
   "image#mleftTwo": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/leftImage2.jpg"
+      "src": "assets/image--middle-2-r.jpg",
+      "link": "/bicicleta?_q=bicicleta&map=ft"
     }
   },
   "slider-layout#right": {
@@ -160,12 +165,14 @@
   },
   "image#rightOne": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/rightImage1.jpg"
+      "src": "assets/image--middle-1-l.jpg",
+      "link": "/atividade-com-criancas/trailers-para-bicicleta"
     }
   },
   "image#mrightTwo": {
     "props": {
-      "src": "https://thulestore.vteximg.com.br/arquivos/rightImage2.jpg"
+      "src": "assets/image--middle-2-l.jpg",
+      "link": "/racks-suportes-e-bagageiros/suportes-para-equipamentos-aquaticos"
     }
   },
   "flex-layout.row#shelfOne": {
@@ -184,15 +191,30 @@
   },
   "carousel#home": {
     "props": {
-      "autoplay": false,
+      "autoplay": true,
       "banners": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/banner-desktop--1.jpg",
+          "mobileImage": "assets/banner-mobile--1.jpg",
+          "src": "/heritage?_q=heritage&map=ft"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/banner-desktop--2.jpg",
+          "mobileImage": "assets/banner-mobile--2.jpg"
+        },
+        {
+          "image": "assets/banner-desktop--3.jpg",
+          "mobileImage": "assets/banner-mobile--3.jpg",
+          "src": "/energy%20red?_q=energy%20red&map=ft"
+        },
+        {
+          "image": "assets/banner-desktop--4.jpg",
+          "mobileImage": "assets/banner-mobile--4.jpg",
+          "src": "/chasm?_q=chasm&map=ft"
+        },
+        {
+          "image": "assets/banner-desktop--5.jpg",
+          "mobileImage": "assets/banner-mobile--5.jpg"
         }
       ],
       "height": 720,
@@ -210,11 +232,12 @@
       "skusFilter": "FIRST_AVAILABLE",
       "productList": {
         "maxItems": 35,
+        "category": 156,
         "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Mais vendidos"
       }
     }
   },
@@ -226,13 +249,14 @@
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "skusFilter": "FIRST_AVAILABLE",
+      "category": 140,
       "productList": {
         "maxItems": 35,
         "itemsPerPage": 4,
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Destaques"
       }
     }
   },

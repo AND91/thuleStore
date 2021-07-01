@@ -1,8 +1,0 @@
-{
-  "name": "amedigital",
-  "version": "1.0.0",
-  "description": "integração ame digital",
-  "main": "index.js",
-  "author": "André Rezende",
-  "license": "MIT"
-}

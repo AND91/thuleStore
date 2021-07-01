@@ -8,8 +8,16 @@
 }
 
 .description{
-    height: 85px;
-    display: block;
+  max-height: 50px;
+  display: block;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+}
+
+.containerNormal {
+  margin: 5px;
 }
 
 .nameContainer{

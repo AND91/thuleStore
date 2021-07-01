@@ -109,7 +109,7 @@
   },
   "rich-text#footerRights": {
     "props": {
-      "text": "Todos os direitos reservados - Thule Store Colinas © 2021       ![VTEX](https://thulestore.vteximg.com.br/arquivos/logoSpace3.png)",
+      "text": "Todos os direitos reservados - Thule Store Colinas © 2019       ![VTEX](https://thulestore.vteximg.com.br/arquivos/logoSpace3.png)",
       "blockClass": "whiteLetterRights"
     }
   },
